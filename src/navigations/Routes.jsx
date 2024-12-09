@@ -12,6 +12,7 @@ const AppRoutes = () => {
         <Route path="/lifting-up" element={<LiftingUp />} />
         <Route path="/toggle" element={<Toggle />} />
         <Route path="/to-do" element={<ToDo />} />
+        <Route path="/" element={<ToDo />} />
       </Routes>
     </>
   );
